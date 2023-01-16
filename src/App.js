@@ -12,8 +12,15 @@ function App() {
           <Title id="title-login" title="Login" />
           <InputLogin type="text" label="Usuário" />
           <InputLogin type="password" label="Senha" />
-          <ButtonDefault id="button01" name="login" />
-          <AnchorDefault name="Esqueceu sua senha?" />
+          <ButtonDefault
+            id="button01"
+            url="https://discord.gg/fDhwxjPT"
+            name="login"
+          />
+          <AnchorDefault
+            href="https://www.google.com/"
+            name="Esqueceu sua senha?"
+          />
         </div>
       </section>
     </div>
