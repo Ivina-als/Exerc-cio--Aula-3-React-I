@@ -1,9 +1,9 @@
 function InputLogin({ label, type }) {
   return (
-    <div className="container-input">
+    <form className="container-input">
       <label htmlFor={label}>{label}</label>
       <input type={type} name={label} className="input-user" />
-    </div>
+    </form>
   );
 }
 
